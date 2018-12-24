@@ -143,7 +143,7 @@ bool init() {
 bool setup()
 {
   // load font
-  gFont = TTF_OpenFont("../Minecraft.ttf", 16);
+  gFont = TTF_OpenFont("Minecraft.ttf", 16);
   if (gFont == NULL)
   {
     SDL_Log("Failed to load Minecraft.ttf font: %s", TTF_GetError());
